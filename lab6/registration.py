@@ -24,4 +24,4 @@ class Student:
     def drop(self, code):
         if code not in self.courses:
             raise RegistrationError(f"{code} is not registered")
-        self.courses.pop(code)
+        del self.courses[code]
