@@ -18,8 +18,22 @@ python -m pytest --cov=registration --cov-report=term-missing
 python -m behave
 ```
 
-`docs/lab6/coverage.png` captures the pytest coverage report in the provided environment. `behave` must be installed to generate `docs/lab6/behave_output.txt` — it was unavailable in the execution environment, so no fabricated green output is included.
+  Then the student has 3 registered hours               # features/steps/registration_steps.py:31 0.000s
+    Then the student has 3 registered hours               # features/steps/registration_steps.py:31
+    And the student has 15 registered hours                         # features/steps/registration_steps.py:31 0.000s
+    And the student has 15 registered hours                         # features/steps/registration_steps.py:31
+    Then the registration is refused with "already registered" # features/steps/registration_steps.py:36 0.000s
+    Then the registration is refused with "already registered" # features/steps/registration_steps.py:36
+    Then the result is "accepted"                             # features/steps/registration_steps.py:41 0.000s
+    Then the result is "accepted"                             # features/steps/registration_steps.py:41
+    Then the result is "accepted"                             # features/steps/registration_steps.py:41 0.000s
+    Then the result is "accepted"                             # features/steps/registration_steps.py:41
+    Then the result is "refused"                              # features/steps/registration_steps.py:41 0.000s
+    Then the result is "refused"                              # features/steps/registration_steps.py:41
+    Then the student has 0 registered hours                    # features/steps/registration_steps.py:31 0.000s
+    Then the student has 0 registered hours                    # features/steps/registration_steps.py:31
+1 feature passed, 0 failed, 0 skipped
+7 scenarios passed, 0 failed, 0 skipped
+28 steps passed, 0 failed, 0 skipped
+Took 0min 0.012s
 
-## Push
-
-Add the `lab6/` folder, `docs/lab6/` folder, and Git history to your own GitHub repository; replace this local repository's origin with your actual repository URL, then push your chosen branch. No remote push was performed here.
