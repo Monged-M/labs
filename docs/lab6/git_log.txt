@@ -1,20 +1,19 @@
-6f17a16 docs: add smells table, coverage answer and QR attendance scenarios
-a08abf7 feat: GREEN add SiblingPolicy via policy lookup without modifying make_invoice
-79eec5f test: RED sibling discount is 25 percent off regular fee
-234f15c test: preserve invoice behavior and add BDD drop scenario
-9a34fe0 refactor: cycle 5 REFACTOR - drop_unknown_course_raises
-ffdf104 feat: cycle 5 GREEN - drop_unknown_course_raises
-cff28d1 test: cycle 5 RED - drop_unknown_course_raises
-69022d5 refactor: cycle 4 REFACTOR - drop_removes_course
-090ac86 feat: cycle 4 GREEN - drop_removes_course
-9edbbaf test: cycle 4 RED - drop_removes_course
-fb7f599 refactor: cycle 3 REFACTOR - cannot_register_same_course_twice
-72d3487 feat: cycle 3 GREEN - cannot_register_same_course_twice
-ff10ee6 test: cycle 3 RED - cannot_register_same_course_twice
-9466b1e refactor: cycle 2 REFACTOR - cannot_go_over_18_hours
-95a40f2 feat: cycle 2 GREEN - cannot_go_over_18_hours
-dcea832 test: cycle 2 RED - cannot_go_over_18_hours
-6648ecb refactor: cycle 1 REFACTOR - register_adds_hours
-91c6162 feat: cycle 1 GREEN - register_adds_hours
-c3b919f test: cycle 1 RED - register_adds_hours
 9f487a8 chore: initialize Lab 6 exercise structure
+c3b919f test: cycle 1 RED - register_adds_hours
+91c6162 feat: cycle 1 GREEN - register_adds_hours
+6648ecb refactor: cycle 1 REFACTOR - register_adds_hours
+dcea832 test: cycle 2 RED - cannot_go_over_18_hours
+95a40f2 feat: cycle 2 GREEN - cannot_go_over_18_hours
+9466b1e refactor: cycle 2 REFACTOR - cannot_go_over_18_hours
+ff10ee6 test: cycle 3 RED - cannot_register_same_course_twice
+72d3487 feat: cycle 3 GREEN - cannot_register_same_course_twice
+fb7f599 refactor: cycle 3 REFACTOR - cannot_register_same_course_twice
+9edbbaf test: cycle 4 RED - drop_removes_course
+090ac86 feat: cycle 4 GREEN - drop_removes_course
+69022d5 refactor: cycle 4 REFACTOR - drop_removes_course
+cff28d1 test: cycle 5 RED - drop_unknown_course_raises
+ffdf104 feat: cycle 5 GREEN - drop_unknown_course_raises
+9a34fe0 refactor: cycle 5 REFACTOR - drop_unknown_course_raises
+234f15c test: preserve invoice behavior and add BDD drop scenario
+79eec5f test: RED sibling discount is 25 percent off regular fee
+a08abf7 feat: GREEN add SiblingPolicy via policy lookup without modifying make_invoice
